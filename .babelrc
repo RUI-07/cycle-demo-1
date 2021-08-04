@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "syntax-jsx",
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "Snabbdom.createElement"
+      }
+    ]
+  ]
+}
